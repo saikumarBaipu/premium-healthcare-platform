@@ -1,0 +1,34 @@
+# Production Readiness Checklist
+
+- [ ] TLS everywhere
+- [ ] JWT access/refresh token rotation
+- [ ] Resource-level authorization
+- [ ] Password hashing
+- [ ] Rate limiting
+- [ ] Secure file upload validation
+- [ ] Audit logging
+- [ ] PII/medical data protection
+- [ ] No sensitive data in logs
+- [ ] Database migrations
+- [ ] Transactional appointment locking
+- [ ] Idempotent payment webhooks
+- [ ] Redis caching with invalidation strategy
+- [ ] Kafka retry/DLQ strategy
+- [ ] API versioning
+- [ ] OpenAPI documentation
+- [ ] Unit tests
+- [ ] Integration tests
+- [ ] Testcontainers
+- [ ] Health/readiness endpoints
+- [ ] Metrics
+- [ ] Distributed tracing
+- [ ] Centralized logs
+- [ ] Backups
+- [ ] Disaster recovery procedure
+- [ ] CI/CD
+- [ ] Docker images
+- [ ] Kubernetes manifests/Helm structure
+- [ ] Secrets management
+- [ ] Dependency/security scanning
+- [ ] Load/concurrency testing
+- [ ] Android release signing and secure configuration

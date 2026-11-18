@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: appointment-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+server:
+  shutdown: graceful
